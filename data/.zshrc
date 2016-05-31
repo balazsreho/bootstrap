@@ -111,10 +111,10 @@ alias ~="cd ~"
 alias c="clear"
 
 # z.sh
-source ~/z/z.sh
+source ~/.z/z.sh
 
 # Syntax highlight
-source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Powerlevel9k setup
 POWERLEVEL9K_MODE='awesome-patched'

@@ -105,7 +105,7 @@ def install_z():
     p_gitclone.wait()
     os.rename(os.path.join("/home", USER, "z"), os.path.join("/home", USER, ".z"))
     os.chdir(back_dir)
-    _chown_recursive(os.path.join("/home", USER, "z"), USER)
+    _chown_recursive(os.path.join("/home", USER, ".z"), USER)
 
 
 def install_zsh_syntax():
