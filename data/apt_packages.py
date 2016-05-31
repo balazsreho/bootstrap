@@ -17,4 +17,4 @@ __maintainer__ = "Balazs Reho"
 __email__ = "reho.balazs@gmail.com"
 
 
-APT_PACKAGES = ["vim", "htop", "lynx", "zsh", "wget", "curl"]
+APT_PACKAGES = ["vim", "htop", "lynx", "zsh", "wget", "curl", "tmux", "zip", "unzip"]
