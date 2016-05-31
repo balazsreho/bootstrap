@@ -81,7 +81,7 @@ if __name__ == "__main__":
     print(BOLD + "Cloned!" + ENDC)
     os.chdir(os.path.join(filename, "bootstrap"))
 
-    install_process = subprocess.Popen("python -d {}/data/install.py".format(filename), shell=True, stderr=sys.stderr,
+    install_process = subprocess.Popen("python -d {}/bootstrap/data/install.py".format(filename), shell=True, stderr=sys.stderr,
                                        stdout=sys.stdout)
     install_process.wait()
     print(HEADER + "Cleaning up :)" + ENDC)
